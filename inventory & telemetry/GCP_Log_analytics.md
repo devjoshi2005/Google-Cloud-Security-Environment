@@ -2,6 +2,8 @@
 
 
 Link :- [Log Analytics using Google Cloud](https://www.skills.google/focuses/49749?parent=catalog)
+
+
 ![Image](image.png)
 
 **Architecture FlowChart**

@@ -1,6 +1,8 @@
 # Using Customer-Managed Encryption Keys with Cloud Storage and Cloud KMS
 
 Link :- [Using Customer-Managed Encryption Keys with Cloud Storage and Cloud KMS](https://www.skills.google/focuses/19180?parent=catalog)
+
+
 ![image](image-1.png)
 
 **Project Summary**

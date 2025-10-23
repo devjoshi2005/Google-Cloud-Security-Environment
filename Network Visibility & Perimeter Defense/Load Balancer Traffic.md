@@ -1,6 +1,8 @@
 # Configuring Traffic Management with a Load Balancer between VPC Subnets
 
 Link :- [Traffic management via Load Balancer](https://www.skills.google/focuses/57737?parent=catalog)
+
+
 ![image](image-4.png)
 
 **Architecture Flowchart**

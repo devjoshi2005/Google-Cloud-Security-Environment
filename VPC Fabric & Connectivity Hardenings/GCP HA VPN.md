@@ -1,6 +1,8 @@
 # Configuring Google Cloud HA VPN Between VPC's
 
 Link :- [Configuring Google Cloud HA VPN](https://www.skills.google/focuses/45793?parent=catalog)
+
+
 ![image](image-4.png)
 
 **Architecture Flowchart**

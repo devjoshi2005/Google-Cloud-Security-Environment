@@ -1,6 +1,8 @@
 # Setting up Private Kubernetes Cluster
 
 Link :- [Setting up Private Kubernetes Cluster](https://www.skills.google/focuses/867?parent=catalog)
+
+
 ![image](image-5.png)
 
 **Architecture Flowchart**

@@ -1,6 +1,8 @@
 # Implement Private Google Access and Cloud NAT between VM's
 
 Link :- [Private Google Access and Cloud NAT](https://www.skills.google/focuses/45795?parent=catalog)
+
+
 ![image](image-3.png)
 
 **Architecture Flowchart**

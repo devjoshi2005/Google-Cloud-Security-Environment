@@ -1,6 +1,8 @@
 # Monitoring a Compute Engine by using Ops Agent
 
 Link :- [Monitoring a Compute Engine by using Ops Agent](https://www.skills.google/focuses/68891?parent=catalog)
+
+
 ![image](image-6.png)
 
 **Architecture Flowchart**

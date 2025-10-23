@@ -1,6 +1,8 @@
 # Redacting Sensitive Data with the DLP (Data Loss Prevention) API
 
 Link :- [Redacting Sensitive Data with DLP API](https://www.skills.google/focuses/17768?parent=catalog)
+
+
 ![image](image.png)
 
 **Architecture Flowchart**

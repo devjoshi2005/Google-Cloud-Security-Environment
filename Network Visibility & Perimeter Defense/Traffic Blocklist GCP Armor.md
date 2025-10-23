@@ -1,6 +1,8 @@
 # Configuring Traffic Blocklisting with Google Cloud Armor Policy for Application Load Balancer
 
 Link :- [Cloud Armor Policy for App LB](https://www.skills.google/focuses/19185?parent=catalog)
+
+
 ![image](image-2.png)
 
 **Architecture Flowchart**

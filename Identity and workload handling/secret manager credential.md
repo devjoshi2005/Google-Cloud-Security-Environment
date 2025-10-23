@@ -1,6 +1,8 @@
 # Configuring and Using Credentials with Secret Manager
 
 Link :- [Configuring and Using Credentials with Secret Manager](https://www.skills.google/focuses/19174?parent=catalog)
+
+
 ![image](image-1.png)
 
 **Architecture Flowchart**

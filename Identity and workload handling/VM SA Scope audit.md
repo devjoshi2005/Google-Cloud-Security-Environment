@@ -1,6 +1,8 @@
 # Configuring, Using, and Auditing VM Service Accounts and Scopes for BigQuery Service
 
 Link :- [Configuring, Using, and Auditing VM Service Accounts and Scopes](https://www.skills.google/focuses/19176?parent=catalog)
+
+
 ![image](image.png)
 
 **Architecture Flowchart**

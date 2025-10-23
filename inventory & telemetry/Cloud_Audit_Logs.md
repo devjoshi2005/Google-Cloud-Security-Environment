@@ -2,6 +2,8 @@
 
 
 Link :- [Cloud Audit Logs](https://www.skills.google/focuses/19471?parent=catalog)
+
+
 ![image](image-3.png)
 
 **Architecture Flowchart**

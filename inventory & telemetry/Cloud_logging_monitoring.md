@@ -1,6 +1,8 @@
 # Configuring and Using Cloud Logging and Cloud Monitoring for VM Instance Logs
 
 Link :- [Cloud Logging & Monitoring](https://www.skills.google/focuses/19183?parent=catalog)
+
+
 ![image](image-4.png)
 
 **Architecture Flowchart**
