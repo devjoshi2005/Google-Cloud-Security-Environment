@@ -10,7 +10,7 @@ Link :- [Private Google Access and Cloud NAT](https://www.skills.google/focuses/
 flowchart LR
   subgraph VPC privatenet
     subUS[privatenet-us 10.130.0.0/20\nPrivate Google Access: ON]
-    VM[vm-internal(no external IP]
+    VM[vm-internal no external IP]
   end
 
   IAP[Cloud IAP]:::svc --> VM

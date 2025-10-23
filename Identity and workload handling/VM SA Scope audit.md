@@ -11,7 +11,7 @@ flowchart LR
   subgraph Project
     SA[Service account: bigquery-qwiklab\nRoles: BigQuery User, Data Viewer]
     VM[Compute Engine VM: bigquery-instance\nAttached SA + access scopes]
-    Code[query.py (google-cloud-bigquery)]
+    Code[query.py google-cloud-bigquery]
   end
 
   Code --> VM
