@@ -9,13 +9,13 @@ Link :- [Resource Monitoring](https://www.skills.google/focuses/45797?parent=cat
 
 ```mermaid
 flowchart LR
-  VM[VM Instance (syslog / app logs)] -->|writes logs| CL[Cloud Logging (Logs Explorer)]
-  CL --> LR[Log Router (Sink)]
-  LR --> BQ[BigQuery dataset (project_logs)]
+  VM[VM Instance syslog / app logs] -->|writes logs| CL[Cloud Logging Logs Explorer]
+  CL --> LR[Log Router Sink]
+  LR --> BQ[BigQuery dataset project_logs]
   LR --> LB[Optional: Log Bucket for retention]
-  CL --> LBM[Logs‑based Metric (403s)]
-  LBM --> CM[Cloud Monitoring (Metric Scope)]
-  CM --> DASH[Custom Dashboard (CPU, Memory, 403s)]
+  CL --> LBM[Logs‑based Metric 403s]
+  LBM --> CM[Cloud Monitoring Metric Scope]
+  CM --> DASH[Custom Dashboard CPU, Memory, 403s]
   BQ --> ANALYST[Analyst / SRE queries]
 ```
 
