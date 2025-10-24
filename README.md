@@ -4,7 +4,6 @@ https://github.com/user-attachments/assets/678d8b0a-3e0d-42f1-b13d-8d0cfc0c5412
 
 ```mermaid
 flowchart TD
-  %% High-level narrative: inputs → controls → outcomes
   A[Google-Cloud-Security-Environment\npracticum repo] --> B[Security domains]
   
   subgraph B[Security domains]
@@ -15,89 +14,39 @@ flowchart TD
     T1[*Inventory & Telemetry*]
   end
 
-  %% Identity & Workload Handling details
-  subgraph I2[Identity & Workload Handling — outcomes]
-    I2a[Least-privilege IAM\ncustom roles, SA scoping]
-    I2b[Keyless CI/CD with\nWorkload Identity]
-    I2c[Kubernetes RBAC\npersona isolation]
-    I2d[Secret Manager\ncredential hygiene]
-    I2e[IAM Conditions\ncontext-aware access]
-  end
-  I1 --> I2a
-  I1 --> I2b
-  I1 --> I2c
-  I1 --> I2d
-  I1 --> I2e
+  %% Identity & Workload Handling subtopics
+  I1 --> I2a[Least-privilege IAM]
+  I1 --> I2b[Workload Identity Federation]
+  I1 --> I2c[Kubernetes RBAC]
+  I1 --> I2d[Secret Manager]
+  I1 --> I2e[IAM Conditions]
 
-  %% Network Visibility & Perimeter Defense details
-  subgraph N2[Network Visibility & Perimeter Defense — outcomes]
-    N2a[Hierarchical firewalls\norg-aligned enforcement]
-    N2b[VPC Flow Logs →\nforensics & detection]
-    N2c[Cloud Armor WAF/DDoS\ngeo/IP allow/deny]
-    N2d[Private Service Connect\nno public egress]
-  end
-  N1 --> N2a
-  N1 --> N2b
-  N1 --> N2c
-  N1 --> N2d
+  %% Network Visibility & Perimeter Defense subtopics
+  N1 --> N2a[Hierarchical Firewalls]
+  N1 --> N2b[VPC Flow Logs]
+  N1 --> N2c[Cloud Armor WAF/DDoS]
+  N1 --> N2d[Private Service Connect]
 
-  %% Storage Protection & DLP details
-  subgraph S2[Storage Protection & DLP — outcomes]
-    S2a[CMEK with Cloud KMS\nkey custody & rotation]
-    S2b[Bucket lock & retention\nWORM compliance]
-    S2c[Lifecycle policies\ncost & exposure control]
-    S2d[DLP inspection/redaction\nPII/PHI/PCI hygiene]
-    S2e[Uniform bucket-level access\nIAM over ACLs]
-  end
-  S1 --> S2a
-  S1 --> S2b
-  S1 --> S2c
-  S1 --> S2d
-  S1 --> S2e
+  %% Storage Protection & DLP subtopics
+  S1 --> S2a[CMEK with Cloud KMS]
+  S1 --> S2b[Bucket Lock & Retention]
+  S1 --> S2c[Lifecycle Policies]
+  S1 --> S2d[Cloud DLP Inspection/Redaction]
+  S1 --> S2e[Uniform Bucket-level Access]
 
-  %% VPC Fabric & Connectivity Hardenings details
-  subgraph V2[VPC Fabric & Connectivity — outcomes]
-    V2a[Private Google Access\nno external IPs]
-    V2b[Cloud NAT\nsafe outbound patching]
-    V2c[Shared VPC & peering\ncentral control across projects]
-    V2d[HA VPN/Interconnect\n99.99% hybrid SLA]
-    V2e[Global routing with Cloud Router\nsimplified multi-region]
-  end
-  V1 --> V2a
-  V1 --> V2b
-  V1 --> V2c
-  V1 --> V2d
-  V1 --> V2e
+  %% VPC Fabric & Connectivity Hardenings subtopics
+  V1 --> V2a[Private Google Access]
+  V1 --> V2b[Cloud NAT]
+  V1 --> V2c[Shared VPC & Peering]
+  V1 --> V2d[HA VPN / Interconnect]
+  V1 --> V2e[Global Routing with Cloud Router]
 
-  %% Inventory & Telemetry details
-  subgraph T2[Inventory & Telemetry — Outcomes]
-    T2a[Cloud Asset Inventory\npoint-in-time & history]
-    T2b[Audit logs & Logging\nwho did what, when]
-    T2c[Monitoring & SLOs\nsignals & alerting]
-    T2d[Security Command Center\ncentralized findings]
-    T2e[BigQuery/SIEM export\nthreat hunting & reporting]
-  end
-  T1 --> T2a
-  T1 --> T2b
-  T1 --> T2c
-  T1 --> T2d
-  T1 --> T2e
-
-  %% Cross-domain business impacts
-  subgraph O[Business impacts]
-    O1[Risk reduction\nleast privilege & no public exposure]
-    O2[Compliance readiness\nCMEK, WORM, audit trails]
-    O3[Operational resilience\nHA connectivity & rotation]
-    O4[Cost-efficiency\nautomation & lifecycle mgmt]
-    O5[Trust & auditability\nsanitized, reproducible artifacts]
-  end
-
-  I2 --> O1
-  N2 --> O1
-  S2 --> O2
-  V2 --> O3
-  T2 --> O5
-  S2c --> O4
+  %% Inventory & Telemetry subtopics
+  T1 --> T2a[Cloud Asset Inventory]
+  T1 --> T2b[Audit Logs & Logging]
+  T1 --> T2c[Cloud Monitoring & SLOs]
+  T1 --> T2d[Security Command Center]
+  T1 --> T2e[BigQuery / SIEM Export]
 ```
 
 
