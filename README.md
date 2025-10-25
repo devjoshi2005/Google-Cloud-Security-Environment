@@ -159,8 +159,7 @@ Each lab was designed to run in a 1–1.5 hour environment, simulating enterpris
 
 ## **Key Takeaways**
 
-- Each lab is **independent** and demonstrates a specific security control.  
-- All labs are **audit‑ready**, with commands, outputs, and sanitized artifacts.  
+- Each lab is **independent** and demonstrates a specific security control.   
 - The project demonstrates **breadth (multiple domains)** and **depth (detailed execution)** of Google Cloud security engineering.  
 - This repository serves as a **portfolio artifact** for enterprise‑grade cloud security proficiency.  
 
